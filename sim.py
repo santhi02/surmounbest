@@ -1,4 +1,4 @@
-with open('Book2.txt') as book:
+with open('Book1.txt') as book:
 	line = str(book.readlines())
 #	line = line1.strip("['\\ufeffThe")
 	words = line.split(' ')
